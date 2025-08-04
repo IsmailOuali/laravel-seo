@@ -4,7 +4,7 @@ namespace YourVendor\LaravelSeo;
 
 use Illuminate\Support\ServiceProvider;
 
-use function app;
+use Illuminate\Support\Facades\App;
 
 class SeoServiceProvider extends ServiceProvider
 {
@@ -24,7 +24,7 @@ class SeoServiceProvider extends ServiceProvider
              */
             function config_path($path = '')
             {
-                return app()->basePath('config') . ($path ? DIRECTORY_SEPARATOR . $path : $path);
+                return App::basePath('config') . ($path ? DIRECTORY_SEPARATOR . $path : $path);
             }
         }
 
