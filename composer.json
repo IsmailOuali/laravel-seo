@@ -1,12 +1,6 @@
 {
   "name": "yourvendor/laravel-seo",
   "description": "Reusable SEO meta tag generator for Laravel",
-    "repositories": [
-    {
-      "type": "path",
-      "url": "C:/laragon/www/laravel-seo"
-    }
-  ],
   "type": "library",
   "license": "MIT",
   "authors": [
